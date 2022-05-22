@@ -42,6 +42,25 @@ class _HomeScreenState extends State<HomeScreen> {
             textAlign: TextAlign.center,
           ),
           Padding(padding: EdgeInsets.all(width * 0.048)),
+          Container(
+            padding: EdgeInsets.only(bottom: width * 0.036),
+            child: Center(
+              child: ButtonTheme(
+                minWidth: width * 0.8,
+                height: height * 0.05,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: RaisedButton(
+                  child: Text(
+                    '지금 풀기',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  onPressed: () {},
+                ),
+              ),
+            ),
+          )
         ],
       ),
     ));
