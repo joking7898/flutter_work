@@ -8,7 +8,7 @@
             "name": "chorme_launch",
             "request": "launch",
             "type": "dart",
-            "args": ["-d","chrome"]
+            "args": ["-d","chrome","--no-sound-null-safety"]
         },
         {
             "name": "android_launch",
